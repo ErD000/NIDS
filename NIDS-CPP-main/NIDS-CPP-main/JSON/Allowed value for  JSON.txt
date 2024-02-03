@@ -1,0 +1,25 @@
+IP Address (IPv4): Any valid IPv4 address from 0.0.0.0 to 255.255.255.255.
+
+IPv6 Address: Any valid IPv6 address conforming to the IPv6 format.
+
+MAC Address: Any valid MAC address conforming to the MAC address format, such as 00:1a:2b:3c:4d:5e.
+
+Port Number: Any integer value from 0 to 65535.
+
+Packet Length: Any positive integer value representing the length of the packet in bytes.
+
+Type of Service (TOS): Specific values depend on the implementation, but common ones include "LowDelay," "Throughput," "Reliability," etc.
+
+TCP Flags: Specific flags like "SYN," "ACK," "FIN," "RST," "PSH," "URG," etc.
+
+Sequence Number: Any positive integer value representing the sequence number in TCP headers.
+
+TCP Window Size: Any positive integer value representing the size of the TCP window.
+
+TCP Options: Boolean values for options such as "Scale" and "Timestamp."
+
+ICMP Code: Values depend on the specific ICMP message type. For example, 0 to 255 for Echo Reply (ping response).
+
+ARP Type: Values can be "Request" or "Reply" for ARP operations.
+
+Wireless Signal Quality: Descriptive values like "Excellent," "Good," "Poor," etc.

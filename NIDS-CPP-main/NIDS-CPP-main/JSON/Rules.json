@@ -1,0 +1,254 @@
+{
+	"Rule_0": {
+		"IPV4": {
+			"Source": "192.168.31.1",
+			"Destination": "10.0.0.1"
+		},
+		"IPV6": {
+			"Source": "2001:db8::1",
+			"Destination": "2001:db8::2"
+		},
+		"MAC": {
+			"Source": "00:1a:2b:3c:4d:5e",
+			"Destination": "a0:b1:c2:d3:e4:f5"
+		},
+		"Port": {
+			"Source": 8080,
+			"Destination": 80
+		},
+		"PacketSize": 1500,
+		"DataSize":1486,
+		"TCP": "SYN",
+		"SequenceNumber": 123456,
+		"TCPWindow": 65535,
+		"ICMPCode": 8,
+		"ARPType": "Request",
+		"TTL":8,
+		"AlertType" : "DDOS Attack"
+	},
+	"Rule_1": {
+		"IPV4": {
+			"Source": "10.0.0.2",
+			"Destination": "192.168.2.1"
+		},
+		"IPV6": {
+			"Source": "2001:db8::3",
+			"Destination": "2001:db8::4"
+		},
+		"MAC": {
+			"Source": "a0:b1:c2:d3:e4:f5",
+			"Destination": "00:1a:2b:3c:4d:5e"
+		},
+		"Port": {
+			"Source": 443,
+			"Destination": 898
+		},
+		"PacketSize": 1200,
+		"TOS": "Throughput",
+		"TCP": "ACK",
+		"SequenceNumber": 789012,
+		"TCPWindow": 32768,
+		"TCPOptions": {
+			"Scale": false,
+			"Timestamp": false
+		},
+		"ICMPCode": null,
+		"ARPType": null,
+		"WirelessSignal": {
+			"Quality": "Good"
+		}
+	},
+	"Rule_2": {
+		"IPV4": {
+			"Source": "144.5.66.77",
+			"Destination": "192.168.2.1"
+		},
+		"IPV6": {
+			"Source": "2001:db8::3",
+			"Destination": "2001:db8::4"
+		},
+		"MAC": {
+			"Source": "a0:b1:c2:d3:e4:f5",
+			"Destination": "00:1a:2b:3c:4d:5e"
+		},
+		"Port": {
+			"Source": 443,
+			"Destination": 898
+		},
+		"PacketSize": 1200,
+		"TOS": "Throughput",
+		"TCP": "ACK",
+		"SequenceNumber": 789012,
+		"TCPWindow": 32768,
+		"TCPOptions": {
+			"Scale": false,
+			"Timestamp": false
+		},
+		"ICMPCode": null,
+		"ARPType": null,
+		"WirelessSignal": {
+			"Quality": "Good"
+		},
+		"AlertType" : "NMAP"
+	},
+	"Rule_3": {
+		"IPV4": {
+			"Source": "10.11.55.25",
+			"Destination": "192.168.2.1"
+		},
+		"IPV6": {
+			"Source": "2001:db8::3",
+			"Destination": "2001:db8::4"
+		},
+		"MAC": {
+			"Source": "a0:b1:c2:d3:e4:f5",
+			"Destination": "00:1a:2b:3c:4d:5e"
+		},
+		"Port": {
+			"Source": 443,
+			"Destination": 898
+		},
+		"PacketSize": 1200,
+		"TOS": "Throughput",
+		"TCP": "ACK",
+		"SequenceNumber": 789012,
+		"TCPWindow": 32768,
+		"TCPOptions": {
+			"Scale": false,
+			"Timestamp": false
+		},
+		"ICMPCode": null,
+		"ARPType": null,
+		"WirelessSignal": {
+			"Quality": "Good"
+		}
+	},
+	"Rule_5": {
+		"IPV4": {
+			"Source": "15.40.2.2",
+			"Destination": "192.168.2.1"
+		},
+		"IPV6": {
+			"Source": "2001:db8::3",
+			"Destination": "2001:db8::4"
+		},
+		"MAC": {
+			"Source": "a0:b1:c2:d3:e4:f5",
+			"Destination": "00:1a:2b:3c:4d:5e"
+		},
+		"Port": {
+			"Source": 443,
+			"Destination": 898
+		},
+		"PacketSize": 1200,
+		"TOS": "Throughput",
+		"TCP": "ACK",
+		"SequenceNumber": 789012,
+		"TCPWindow": 32768,
+		"TCPOptions": {
+			"Scale": false,
+			"Timestamp": false
+		},
+		"ICMPCode": null,
+		"ARPType": null,
+		"WirelessSignal": {
+			"Quality": "Good"
+		}
+	},
+	"Rule_6": {
+		"IPV4": {
+			"Source": "15.40.24.2",
+			"Destination": "192.168.2.1"
+		},
+		"IPV6": {
+			"Source": "2001:db8::3",
+			"Destination": "2001:db8::4"
+		},
+		"MAC": {
+			"Source": "a0:b1:c2:d3:e4:f5",
+			"Destination": "00:1a:2b:3c:4d:5e"
+		},
+		"Port": {
+			"Source": 443,
+			"Destination": 898
+		},
+		"PacketSize": 1200,
+		"TOS": "Throughput",
+		"TCP": "ACK",
+		"SequenceNumber": 789012,
+		"TCPWindow": 32768,
+		"TCPOptions": {
+			"Scale": false,
+			"Timestamp": false
+		},
+		"ICMPCode": null,
+		"ARPType": null,
+		"WirelessSignal": {
+			"Quality": "Good"
+		}
+	},
+	"Rule_7": {
+		"IPV4": {
+			"Source": "155.40.2.2",
+			"Destination": "192.168.2.1"
+		},
+		"IPV6": {
+			"Source": "2001:db8::3",
+			"Destination": "2001:db8::4"
+		},
+		"MAC": {
+			"Source": "a0:b1:c2:d3:e4:f5",
+			"Destination": "00:1a:2b:3c:4d:5e"
+		},
+		"Port": {
+			"Source": 443,
+			"Destination": 898
+		},
+		"PacketSize": 1200,
+		"TOS": "Throughput",
+		"TCP": "ACK",
+		"SequenceNumber": 789012,
+		"TCPWindow": 32768,
+		"TCPOptions": {
+			"Scale": false,
+			"Timestamp": false
+		},
+		"ICMPCode": null,
+		"ARPType": null,
+		"WirelessSignal": {
+			"Quality": "Good"
+		}
+	},
+	"Rule_8": {
+		"IPV4": {
+			"Source": "145.40.2.2",
+			"Destination": "192.168.2.1"
+		},
+		"IPV6": {
+			"Source": "2001:db8::3",
+			"Destination": "2001:db8::4"
+		},
+		"MAC": {
+			"Source": "a0:b1:c2:d3:e4:f5",
+			"Destination": "00:1a:2b:3c:4d:5e"
+		},
+		"Port": {
+			"Source": 443,
+			"Destination": 898
+		},
+		"PacketSize": 1200,
+		"TOS": "Throughput",
+		"TCP": "ACK",
+		"SequenceNumber": 789012,
+		"TCPWindow": 32768,
+		"TCPOptions": {
+			"Scale": false,
+			"Timestamp": false
+		},
+		"ICMPCode": null,
+		"ARPType": null,
+		"WirelessSignal": {
+			"Quality": "Good"
+		}
+	}
+}
